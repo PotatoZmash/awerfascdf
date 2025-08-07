@@ -1,1 +1,15 @@
-leadstring(game:HttpGet("https://pastefy.app/DJnntsGW/raw"))()
+--[[ 
+  Random Executor by Yureiii 
+  Script 1: 30% chance
+  Script 2: 70% chance
+--]]
+
+local chance = math.random(1, 100)
+
+if chance <= 30 then
+    -- 30% chance
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PotatoZmash/GrowaGardenVisual/refs/heads/main/yureiii.lua"))()
+else
+    -- 70% chance
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PotatoZmash/awerfascdf/refs/heads/main/sxfcc"))()
+end
